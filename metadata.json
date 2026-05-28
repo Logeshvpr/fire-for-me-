@@ -1,0 +1,11 @@
+{
+  "name": "Solar Run",
+  "description": "Premium unified platform for Customer Bookings, Field Surveys, Site Leadership coordination, and intelligent 3D Solar Model generation.",
+  "requestFramePermissions": [
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.CAMERA",
+    "android.permission.RECORD_AUDIO"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

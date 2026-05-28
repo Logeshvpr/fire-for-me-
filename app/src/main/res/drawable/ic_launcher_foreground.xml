@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer sun ring solar ray lines -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFB300"
+        android:pathData="M 54,22 L 54,14 M 54,86 L 54,94 M 22,54 L 14,54 M 86,54 L 94,54 M 31,31 L 25,25 M 77,77 L 83,83 M 31,77 L 25,83 M 77,31 L 83,25" />
+        
+    <!-- Central Solar Panel tilted square base -->
+    <path
+        android:fillColor="#1565C0"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M 32,32 L 76,32 L 76,76 L 32,76 Z" />
+        
+    <!-- Primary vertical grid lines in solar panel wafer -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M 43,32 L 43,76 M 54,32 L 54,76 M 65,32 L 65,76" />
+        
+    <!-- Primary horizontal grid lines in solar panel wafer -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:pathData="M 32,43 L 76,43 M 32,54 L 76,54 M 32,65 L 76,65" />
+        
+    <!-- Geo Location GPS pin node overlay in the middle -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M 54,36 C 50,36 47,39 47,43 C 47,48 54,55 54,55 C 54,55 61,48 61,43 C 61,39 58,36 54,36 Z" />
+        
+    <!-- GPS Inner Pin center eye pinhead -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,41 C 53,41 52,42 52,43 C 52,44 53,45 54,45 C 55,45 56,44 56,43 C 56,42 55,41 54,41 Z" />
+</vector>
